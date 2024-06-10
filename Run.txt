@@ -1,0 +1,8 @@
+./venv/Scripts/activate.bat 
+python manage.py runserver
+
+python -m venv venv (Созздать новый venv)
+pip install -r .\requirments.txt
+# pip install django-cors-headers
+pip freeze > .\requiremets.txt 
+python manage.py runserver
